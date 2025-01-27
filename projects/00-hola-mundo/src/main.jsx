@@ -1,14 +1,10 @@
 import { StrictMode } from 'react'
 import React from 'react'
 import { createRoot } from 'react-dom/client'
-
-const Button = ({texto}) => {
-    return <button>{texto}</button>
-}
+import { App } from './app'
+import './index.css'
+import './app.css'
 
 createRoot(document.getElementById('root')).render(
-    <React.Fragment>
-    <Button texto="123"></Button>
-    <Button texto="Nicolas gomez"></Button>
-    </React.Fragment>
+    <App/>
 )
