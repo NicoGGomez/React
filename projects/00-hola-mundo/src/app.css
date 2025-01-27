@@ -33,4 +33,34 @@
     border-radius: 999px;
     padding: 6px 16px;
     font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease background-color;
+} 
+
+.tw-followCard-actions.following button{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.tw-followCard-actions.following button:hover {
+    background-color: rgba(255, 0, 0, 0.178);
+    color: hsl(0, 100%, 47%);
+    border: 1px solid #ff0000;
+    transition: 1s;
+}
+
+.tw-followCard-actions.following button:hover .tw-followCard-stopFollow {
+    display: block;
+}
+
+.tw-followCard-actions.following button:hover .tw-followCard-text {
+    display: none;
+}
+
+.tw-followCard-actions button:hover {
+    background-color: #bdbdbd;
+} 
+
+.tw-followCard-stopFollow {
+    display: none;
 }
