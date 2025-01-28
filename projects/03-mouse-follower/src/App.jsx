@@ -1,9 +1,13 @@
+import { FollowMouse } from './components/FollowMouse'
 
 function App() {
 
   return (
-    <h3>projecto 3</h3>
+    <main>
+      <FollowMouse />
+    </main>
   )
+
 }
 
 export default App
